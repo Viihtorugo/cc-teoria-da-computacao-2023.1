@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    background: black;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+}
+
+img {
+    overflow: hidden;
+    position: absolute;
+    top: 25%;
+}
+
+div#p {
+    padding: 0.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    top: 57%;
+    left: 55%;
+    animation: fill 10s delay ease-in-out infinite;
+}
+
+div#a {
+    padding: 0.25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    top: 61%;
+    left: 55%;
+    animation: fill 10s delay ease-in-out infinite;
+}
+
+div#trava-agua {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background: white;
+    top: 52.3%;
+    left: 48.4%;
+    animation: fill 10s delay ease-in-out infinite;
+}
+
+div#trava-purificador {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background: white;
+    top: 39.3%;
+    left: 49.3%;
+    animation: fill 10s delay ease-in-out infinite;
+}
+
+div#trava-agua-purificador {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background: white;
+    top: 52.3%;
+    left: 51.4%;
+    animation: fill 10s delay ease-in-out infinite;
+}
+
+div#fluxo-agua {
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    background: black;
+    top: 53.9%;
+    left: 49.4%;
+    animation: fill 10s delay ease-in-out infinite;
+}
