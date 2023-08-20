@@ -65,7 +65,6 @@ function move () {
     
 }
 
-
 window.addEventListener("keydown", function(event){
     var tecla = event.key
 
